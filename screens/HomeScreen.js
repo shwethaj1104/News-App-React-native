@@ -23,10 +23,10 @@ const HomeScreen =()=>  {
                     return(
                         <Card
                         key={url}
-                        style={{marginTop:10,borderColor:'black',borderRadius:5,borderBottomWidth:1}}
+                        style={styles.card}
                         onPress={()=>{Linking.openURL(`${url}`)}}
                         >
-                            <View style={{flexDirection:'row'}}>
+                            <View style={styles.cardDescImg}>
                                 {/* text */}
                                 <View style={{justifyContent:'space-around',flex:2/3,margin:10}}>
                                     <Title>{title}</Title>
@@ -71,5 +71,12 @@ const styles = StyleSheet.create({
         paddingBottom:50,
         fontSize:20
     },
+    card:{
+        marginTop:10,
+        borderColor:'black',
+        borderRadius:5,
+        borderBottomWidth:1
+    },
+    cardDescImg:{flexDirection:'row'}
   });
   
