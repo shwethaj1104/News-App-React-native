@@ -32,7 +32,7 @@ const HomeScreen =()=>  {
                                     <Title>{title}</Title>
                                 </View>
                                 {/* image */}
-                                <View style={{flex:1/3,margin:10}}>
+                                <View style={styles.cardImage}>
                                     <Image style={{width:120,height:120}} source={{uri:urlToImage}} />
                                 </View>
 
@@ -81,6 +81,10 @@ const styles = StyleSheet.create({
     cardTitle:{
         justifyContent:'space-around',
         flex:2/3,
+        margin:10
+    },
+    cardImage:{
+        flex:1/3,
         margin:10
     }
   });
