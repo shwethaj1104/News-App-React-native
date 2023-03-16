@@ -68,6 +68,7 @@ const styles = StyleSheet.create({
         width:'100%',
         // paddingTop:Platform.OS==='android' ? 20 : 40
         paddingTop:50,
+        paddingBottom:50,
         fontSize:20
     },
   });
