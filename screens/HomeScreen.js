@@ -28,7 +28,7 @@ const HomeScreen =()=>  {
                         >
                             <View style={styles.cardDescImg}>
                                 {/* text */}
-                                <View style={{justifyContent:'space-around',flex:2/3,margin:10}}>
+                                <View style={styles.cardTitle}>
                                     <Title>{title}</Title>
                                 </View>
                                 {/* image */}
@@ -77,6 +77,11 @@ const styles = StyleSheet.create({
         borderRadius:5,
         borderBottomWidth:1
     },
-    cardDescImg:{flexDirection:'row'}
+    cardDescImg:{flexDirection:'row'},
+    cardTitle:{
+        justifyContent:'space-around',
+        flex:2/3,
+        margin:10
+    }
   });
   
