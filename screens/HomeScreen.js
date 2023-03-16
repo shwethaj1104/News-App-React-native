@@ -1,6 +1,5 @@
-import React, { Component, useEffect, useState } from 'react'
-import { SafeAreaView, Text, View , Image, ScrollView,Linking, StyleSheet} from 'react-native'
-import axios from 'axios'
+import React, { useState } from 'react'
+import { Text, View , Image, ScrollView,Linking, StyleSheet} from 'react-native'
 import { Card,Title,Paragraph } from 'react-native-paper'
 import articles from '../data'
 
