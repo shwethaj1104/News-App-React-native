@@ -33,7 +33,7 @@ const HomeScreen =()=>  {
                                 </View>
                                 {/* image */}
                                 <View style={styles.cardImage}>
-                                    <Image style={{width:120,height:120}} source={{uri:urlToImage}} />
+                                    <Image style={styles.cardImageDimension} source={{uri:urlToImage}} />
                                 </View>
 
                             </View>
@@ -86,6 +86,10 @@ const styles = StyleSheet.create({
     cardImage:{
         flex:1/3,
         margin:10
+    },
+    cardImageDimension:{
+        width:120,
+        height:120
     }
   });
   
