@@ -5,15 +5,7 @@ import { Card,Title,Paragraph } from 'react-native-paper'
 import articles from '../data'
 
 const HomeScreen =()=>  {
-    // const [articlesList,setArticlesList]=useState()
-    const [isLoading,setIsLoading]=useState(true)
-    // const [errors,setErrors]=useState()
-
-
-    // useEffect(()=>{
-    //     setArticlesList(articles)
-    // },[]) 
-        console.log("response",articles)   
+    const [isLoading,setIsLoading]=useState(true)  
 
     // useEffect(() => {
     //     axios.get("https://newsapi.org/v2/everything?q=Apple&from=2023-03-16&sortBy=popularity&apiKey=62ea2a9a3af94cab9bbe2ecfe1ad784e").then((response) => {
