@@ -8,7 +8,7 @@ Clone the project
 npm install
 npm start
 Scan the QR code using expo app via android or iphone to access app (or)
-create a emaulator using android studio
+create a emulator using android studio
 ___________________________
 
 ![image](https://user-images.githubusercontent.com/107784718/227857833-9264cedf-c889-4b45-a92a-7546ccffcc8e.png)
