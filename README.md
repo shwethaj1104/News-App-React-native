@@ -4,7 +4,7 @@ Tech stack used : React native V 0.71.3
 
 Libraries used : react-native-paper V 5.4.1, expo.
 ___________________________
-clone the project
+Clone the project
 npm install
 npm start
 ___________________________
