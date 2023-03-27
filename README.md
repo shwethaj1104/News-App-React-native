@@ -5,6 +5,7 @@ Tech stack used : React native V 0.71.3
 Libraries used : react-native-paper V 5.4.1, expo.
 ___________________________
 Clone the project
+
 npm install
 npm start
 Scan the QR code using expo app via android or iphone to access app (or)
